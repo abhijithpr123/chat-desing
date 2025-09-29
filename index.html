@@ -11,105 +11,103 @@
 </head>
 
 <body class="bg-gray-100">
-    <div class="main flex w-screen h-screen max-sm:overflow-x-hidden md:overflow-hidden gap-60 max-sm:flex-col">
-        <div class="part1 flex-1">
+    <div class="main grid grid-cols-[450px_250px_500px_500px] w-screen md:h-screen max-sm:grid-cols-1 max-sm:overflow-hidden md:overflow-hidden">
+
+        <div class="left-part max-sm:w-[80%] h-[630px] max-sm:h-[60vh] bg-linear-to-tr from-violet-500 to-fuchsia-500 rounded-b-[46%] relative left-[-20%] max-sm:left-[-35%]">
+        </div>
+        <div
+            class="phone w-[250px] h-[475px] bg-slate-100 border-2 border-gray-200 rounded-2xl z-10 rounded-t-3xl outline-8 outline-white shadow-2xl relative left-[-70%]  max-sm:left-15 top-20 max-sm:top-[-60%]">
             <div
-                class="right-part w-[450px] h-[650px] bg-linear-to-tr from-violet-500 to-fuchsia-500 rounded-b-[46%] relative left-[-8%]">
-                <div
-                    class="phone w-58 h-[475px] bg-slate-100 border-2 border-gray-200 rounded-2xl rounded-t-3xl relative left-[81%] top-[16vh] outline-8 outline-white shadow-2xl">
-                    <div
-                        class="contact-card bg-linear-to-tr from-violet-500 to-fuchsia-500 h-20 w-[100%] rounded-sm rounded-t-3xl">
-                        <div class="notch w-35 rounded-b-2xl h-8 bg-white relative left-10 bottom-2"></div>
-                        <div class="profile flex gap-2">
-                            <span class="material-symbols-outlined arrow text-white mt-2">chevron_backward</span>
-                            <div class="pic">
-                                <img src="images/avatar.jpg" alt=""
-                                    class="rounded-[50%] w-6 outline-2 outline-white mt-2">
-                            </div>
-                            <div class="card flex justify-between">
-                                <div class="name">
-                                    <p class="text-white font-bold text-[13px]">Samuel Green</p>
-                                    <p class="text-gray-300 text-[10px]">Available to Walk</p>
-                                </div>
-                                <span class="material-symbols-outlined vert text-white pl-10 mt-2">more_vert</span>
-                            </div>
+                class="contact-card bg-linear-to-tr from-violet-500 to-fuchsia-500 h-20 w-[100%] rounded-sm rounded-t-3xl">
+                <div class="notch w-35 rounded-b-2xl h-8 bg-white m-auto"></div>
+                <div class="profile flex gap-2">
+                    <span class="material-symbols-outlined arrow text-white mt-2">chevron_backward</span>
+                    <div class="pic">
+                        <img src="images/avatar.jpg" alt="" class="rounded-[50%] w-6 outline-2 outline-white mt-2">
+                    </div>
+                    <div class="card flex justify-between">
+                        <div class="name">
+                            <p class="text-white font-bold text-[13px]">Samuel Green</p>
+                            <p class="text-gray-300 text-[10px]">Available to Walk</p>
                         </div>
-                        <div class="message p-2 mt-4">
-                            <div class="msg w-[60%] bg-purple-100 rounded-sm p-1">
-                                <p class="text-[8px] text-violet-400">That sounds great.i'd be happy with that.</p>
-                            </div>
-                            <div class="msg w-[60%] mt-2 bg-purple-100 rounded-sm p-1">
-                                <p class="text-[8px] text-violet-400">Could you send over same pictures of your dog.
-                                    please?
-                                </p>
-                            </div>
-                            <div class="avatar flex gap-2 mt-3 justify-end">
-                                <img src="/images/dog-image-1.jpg" alt="" class="w-9 rounded-lg">
-                                <img src="/images/dog-image-2.jpg" alt="" class="w-9 rounded-lg">
-                                <img src="/images/dog-image-3.jpg" alt="" class="w-9 rounded-lg">
-                            </div>
-                            <div class="msg w-[100%] mt-2 flex justify-end">
-                                <p class="text-[8px] shadow-lg w-[60%] bg-white rounded-sm p-1 text-gray-400">Here are
-                                    few
-                                    pictures. She's a happy girl!</p>
-                            </div>
-                            <div class="msg w-[100%] mt-2  flex justify-end">
-                                <p class="text-[8px] shadow-lg w-[60%] bg-white rounded-sm p-1 text-gray-400">Can you
-                                    make
-                                    it?</p>
-                            </div>
-                            <div class="msg w-[60%] mt-2 bg-purple-100 rounded-sm p-1">
-                                <p class="text-[8px] text-violet-400">She looks so happy! The time we discuseed works.
-                                    How
-                                    long shall i take her out for?</p>
-                            </div>
-
-                            <div
-                                class="msg w-[60%] mt-2 bg-linear-to-tr from-violet-500 to-fuchsia-500 rounded-sm p-[5px] flex items-center justify-between">
-                                <div class="in flex gap-1">
-                                    <div class="round border-1 border-white w-3 h-3 rounded-[50%]"></div>
-                                    <p class="text-[8px] text-white">30 minute walk</p>
-                                </div>
-                                <h5 class="text-white font-bold">$29</h5>
-                            </div>
-                            <div
-                                class="msg w-[60%] mt-2 mb-2 bg-linear-to-tr from-violet-500 to-fuchsia-500 rounded-sm p-[5px] flex items-center justify-between">
-                                <div class="in flex gap-1">
-                                    <div class="round border-1 border-white w-3 h-3 rounded-[50%]"></div>
-                                    <p class="text-[8px] text-white">1 hour walk</p>
-                                </div>
-                                <h4 class="text-white font-bold">$49</h4>
-                            </div>
-                            <div
-                                class="m-auto w-full bg-white rounded-3xl bg-white flex h-10 shadow-lg justify-between items-center p-2">
-
-                                <p class="text-gray-300 text-[10px] ">Type a message...</p>
-                                <div class="arrow1 bg-gray-700 h-8 w-8 rounded-[50%] flex items-center justify-center">
-                                    <span class="material-symbols-outlined arrow2 text-white">arrow_forward_ios</span>
-                                </div>
-
-                            </div>
-
-                        </div>
+                        <span class="material-symbols-outlined vert text-white pl-10 mt-2">more_vert</span>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="part2 flex-1 flex justify-end items-center">
-            <div class="booking w-[500px] z-1 flex flex-col justify-end gap-3 p-2">
-                <h1 class="font-bold text-[40px] text-purple-950">Simple booking</h1>
-                <div class="content">
-                    <p class="text-[18px] text-zinc-400">
-                        Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss
-                        arrangements and make bookings. Once the walk has been completed you can rate your walker and
-                        book again all through the chat.
-                    </p>
+                <div class="message p-2 mt-4">
+                    <div class="msg w-[60%] bg-purple-100 rounded-sm p-1">
+                        <p class="text-[8px] text-violet-400">That sounds great.i'd be happy with that.</p>
+                    </div>
+                    <div class="msg w-[60%] mt-2 bg-purple-100 rounded-sm p-1">
+                        <p class="text-[8px] text-violet-400">Could you send over same pictures of your dog.
+                            please?
+                        </p>
+                    </div>
+                    <div class="avatar flex gap-2 mt-3 justify-end">
+                        <img src="/images/dog-image-1.jpg" alt="" class="w-9 rounded-lg">
+                        <img src="/images/dog-image-2.jpg" alt="" class="w-9 rounded-lg">
+                        <img src="/images/dog-image-3.jpg" alt="" class="w-9 rounded-lg">
+                    </div>
+                    <div class="msg w-[100%] mt-2 flex justify-end">
+                        <p class="text-[8px] shadow-lg w-[60%] bg-white rounded-sm p-1 text-gray-400">Here are
+                            few
+                            pictures. She's a happy girl!</p>
+                    </div>
+                    <div class="msg w-[100%] mt-2  flex justify-end">
+                        <p class="text-[8px] shadow-lg w-[60%] bg-white rounded-sm p-1 text-gray-400">Can you
+                            make
+                            it?</p>
+                    </div>
+                    <div class="msg w-[60%] mt-2 bg-purple-100 rounded-sm p-1">
+                        <p class="text-[8px] text-violet-400">She looks so happy! The time we discuseed works.
+                            How
+                            long shall i take her out for?</p>
+                    </div>
+
+                    <div
+                        class="msg w-[60%] mt-2 bg-linear-to-tr from-violet-500 to-fuchsia-500 rounded-sm p-[5px] flex items-center justify-between">
+                        <div class="in flex gap-1">
+                            <div class="round border-1 border-white w-3 h-3 rounded-[50%]"></div>
+                            <p class="text-[8px] text-white">30 minute walk</p>
+                        </div>
+                        <h5 class="text-white font-bold">$29</h5>
+                    </div>
+                    <div
+                        class="msg w-[60%] mt-2 mb-2 bg-linear-to-tr from-violet-500 to-fuchsia-500 rounded-sm p-[5px] flex items-center justify-between">
+                        <div class="in flex gap-1">
+                            <div class="round border-1 border-white w-3 h-3 rounded-[50%]"></div>
+                            <p class="text-[8px] text-white">1 hour walk</p>
+                        </div>
+                        <h4 class="text-white font-bold">$49</h4>
+                    </div>
+                    <div
+                        class="m-auto w-full bg-white rounded-3xl bg-white flex h-10 shadow-lg justify-between items-center p-2">
+
+                        <p class="text-gray-300 text-[10px] ">Type a message...</p>
+                        <div class="arrow1 bg-gray-700 h-8 w-8 rounded-[50%] flex items-center justify-center">
+                            <span class="material-symbols-outlined arrow2 text-white">arrow_forward_ios</span>
+                        </div>
+
+                    </div>
+
                 </div>
-            </div>
-            <div class="right-part w-[500px] h-[650px] bg-violet-100 opacity-50 rounded-t-[46%] relative top-20">
             </div>
         </div>
 
+        <div class="booking z-1 flex flex-col gap-3 p-2 justify-center max-sm:items-center max-sm:relative max-sm:top-[-200px] max-sm:w-[85%] max-sm:m-auto">
+            <h1 class="font-bold text-[40px] max-sm:text-[30px] text-purple-950">Simple booking</h1>
+            <div class="content">
+                <p class="text-[18px] text-zinc-400 max-sm:text-center">
+                    Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss
+                    arrangements and make bookings. Once the walk has been completed you can rate your walker and
+                    book again all through the chat.
+                </p>
+            </div>
+        </div>
+
+        <div class="flex h-screen items-end max-sm:hidden">
+            <div class="right-part w-full h-[650px] bg-violet-100 opacity-50 rounded-t-[46%] max-sm:relative max-sm:top-[-600px] max-sm:left-45">
+            </div>
+        </div>
     </div>
 </body>
 
